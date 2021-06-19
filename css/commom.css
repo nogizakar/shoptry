@@ -42,3 +42,72 @@
 .shortcut li {
     float: left;
 }
+/* header区域 */
+.header {
+    position: relative;
+    height: 105px;
+    background-color: pink;
+}
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 175px;
+    height: 56px;
+}
+.logo a {
+    display: block;
+    /* overflow: hidden; */
+    width: 175px;
+    height: 56px;
+    background: url(../img/logo.png) no-repeat;
+    /* text-indent: -999px; */
+    font-size: 0;
+}
+.search {
+    position: absolute;
+    top: 25px;
+    left: 348px;
+}
+.text {
+    float: left;
+    width: 445px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    padding-left: 10px;
+    color: #ccc;
+}
+.btn {
+    float: left;
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    border: 0;
+}
+.hotwords {
+    position: absolute;
+    top: 65px;
+    left: 348px;
+}
+.hotwords a {
+    margin: 0 10px;
+}
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 64px;
+    width: 138px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    background-color:#f7f7f7;
+    line-height: 34px;
+    text-align: center;
+}
+.car {
+    font-family: 'icomoon';
+    color: #da5555;
+}
+.arrow {
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
