@@ -46,7 +46,6 @@
 .header {
     position: relative;
     height: 105px;
-    background-color: pink;
 }
 .logo {
     position: absolute;
@@ -110,4 +109,16 @@
 .arrow {
     font-family: 'icomoon';
     margin-left: 5px;
+}
+.count {
+    position: absolute;
+    top: -5px;
+    /* 左对齐，向右走 */
+    left: 100px;
+    background-color: #e60012;
+    height: 14px;
+    padding:0 3px;
+    line-height: 14px;
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
 }
