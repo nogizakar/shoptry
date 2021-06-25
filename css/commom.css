@@ -189,11 +189,39 @@
 }
 .mod_service {
     height: 79px;
-    background: pink;
     border-bottom: 1px solid #ccc;
 }
 .mod_service li {
     float: left;
     width: 240px;
     height: 79px;
+}
+.mod-service-icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    background: url(../img/icons.png) no-repeat;
+}
+.mod_service_zheng {
+    background-position:  -253px -3px;
+}
+.mod_service_tit {
+    float: left;
+    margin-left: 5px;
+}
+.mod_service_tit h5 {
+    margin: 5px 0;
+}
+.mod_service_kuai {
+    background-position:  -255px -54px;
+}
+.mod_service_bao {
+    background-position:  -257px -105px;
+}
+.mod_service_fu {
+    background-position:  -257px -157px;
+}
+.mod_service_bang {
+    background-position:  -257px -209px;
 }
