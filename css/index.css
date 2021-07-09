@@ -1,0 +1,17 @@
+/* 首页样式 */
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.focus {
+    width: 720px;
+    height: 455px;
+    background-color: purple;
+}
+.newsflash {
+    height: 455px;
+    width: 250px;
+    background-color: skyblue;
+}
