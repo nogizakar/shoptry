@@ -6,9 +6,47 @@
     margin-top: 10px;
 }
 .focus {
+    position: relative;
     width: 720px;
     height: 455px;
     background-color: purple;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0,0,0,.3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+}
+.arrow-r {
+    right: 0;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /* background-color: #fff; */
+    border: 2px solid rgba(255,255,255,.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /* 鼠标经过显示小手 */
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
+    box-shadow: #fff ;
 }
 .newsflash {
     height: 455px;
