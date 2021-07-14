@@ -51,5 +51,77 @@
 .newsflash {
     height: 455px;
     width: 250px;
-    background-color: skyblue;
+}
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+.news-hd {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 15px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+.news-hd a {
+    float: right;
+    font-size: 12px;
+}
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+.news-bd li {
+    height: 23px;
+}
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.lifeservice li a {
+    display: block;
+    /* 解决i引起的外边距塌陷合并问题 */
+    overflow: hidden;
+    height: 100%;
+}
+.lifeservice li p {
+    text-align: center;
+}
+.hot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+.service_ico_huafei {
+    background-position: -17px -16px;
+}
+.service_ico_feiji {
+    width: 26px;
+    background-position: -78px -16px;
+}
+.bargain {
+    height: 75px;
+    margin-top: 5px;
 }
