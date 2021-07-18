@@ -158,3 +158,25 @@
 .recom-bd .last {
     border-right: 0;
 }
+/* 楼层区 */
+.box-hd {
+    height: 30px;
+    background-color: pink;
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.tab-list {
+    float: right;
+    line-height: 30px;
+}
+.tab-list li {
+    float: left;
+}
+.tab-list li a {
+    margin: 0 15px;
+}
