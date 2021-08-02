@@ -151,6 +151,10 @@
     margin-left: 1px;
     padding: 0 10px;
     /* 一个盒子没有宽度，padding值不会撑开盒子 */
+    transition: all .5s;
+}
+.menu_item:hover {
+    padding-left: 20px;
 }
 .menu_item:hover {
     background-color: #fff;

@@ -1,0 +1,59 @@
+/* 列表页面css */
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    border-left: 1px solid #b1191a;
+    height: 32px;
+    padding:5px 0 0 15px ;
+}
+.sk_list li {
+    float: left;
+    line-height: 45px;
+    margin: 0 30px;
+}
+.sk_list li a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.sk_list li a:hover {
+    color: #c81523;
+}
+.sk_con li {
+    float: left;
+    line-height: 45px;
+    margin: 0 20px;
+}
+.sk_con li a {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'icomoon';
+}
+/* 列表页内容区 */
+.sk_bd {
+    margin-top: 25px;
+}
+.sk_goods {
+    width: 203px;
+    height: 458px;
+    border: 1px solid #e12228;
+}
+.sk_goods_title {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    padding: 10px 10px 15px;
+}
+.sk_goods_price {
+    padding: 0 10px;
+}
+.sk_goods_price em {
+    font-size: 22px;
+    color: #e60012;
+}
+.sk_goods_price del {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a4a4a4;
+}
