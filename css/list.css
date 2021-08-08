@@ -35,15 +35,16 @@
     margin-top: 25px;
 }
 .sk_goods {
-    width: 203px;
+    width: 288px;
     height: 458px;
     border: 1px solid #e12228;
 }
+
 .sk_goods_title {
     font-size: 14px;
     color: #666;
     font-weight: normal;
-    padding: 10px 10px 15px;
+    padding: 10px;
 }
 .sk_goods_price {
     padding: 0 10px;
@@ -56,4 +57,21 @@
     font-size: 14px;
     font-weight: 700;
     color: #a4a4a4;
+}
+.sk_goods_progress {
+    padding: 0 10px;
+}
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #b1191a;
+    vertical-align: middle;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.bar_in {
+    width: 87%;
+    height: 10px;
+    background-color: #f24349;
 }
