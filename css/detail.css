@@ -144,10 +144,36 @@
     margin-top: 20px;
 }
 .choose_amount {
+    position: relative;
     float: left;
     width: 50px;
     height: 46px;
     background-color: pink;
+}
+.choose_amount input {
+    width: 33px;
+    height: 44px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.add,
+.reduce {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 22px;
+}
+.add {
+    top: 0;
+    right: 0;
+}
+.reduce {
+    bottom: 0;
+    right: 0;
+    cursor: not-allowed;
 }
 .addcar {
     float: left;
@@ -159,5 +185,97 @@
     font-size: 18px;
     color: #fff;
     margin-left: 10px;
+    font-weight: 700;
+}
+.product_detail {
+    margin-bottom: 50px;
+}
+.aside {
+    width: 208px;
+    border: 1px solid #ccc;
+}
+.tab_list {
+    overflow: hidden;
+    height: 34px;
+    
+}
+/* 背景色，底边框给 li* */
+.tab_list li {
+    float: left;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+}
+/* 鼠标点击li*变 */
+.tab_list .current {
+    background-color: #fff;
+    border-bottom: 0;
+    color: red;
+
+}
+.first_tab {
+    width: 104px;
+}
+.second_tab {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+.tab_con {
+    padding: 0 10px;
+}
+.tab_con li {
+    border-bottom: 1px solid #ccc;
+}
+.tab_con li h5 {
+    /* 超出的文字省略号显示 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+}
+.aside_price {
+    font-weight: 700;
+    margin:10px 0;
+}
+.as_addcar {
+    display: block;
+    width: 88px;
+    height: 26px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 26px;
+}
+.detail {
+    width: 978px;
+}
+.detail_tab_list {
+    height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.detail_tab_list li {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.detail_tab_list .current {
+    background-color: #c81623;
+    color: #fff;
+}
+.item_info {
+    padding: 20px 0 0 20px;
+}
+.item_info li {
+    line-height: 22px;
+}
+.more {
+    float: right;
     font-weight: 700;
 }
