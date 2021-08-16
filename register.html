@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <!-- 初始化CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="w">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="registerarea">
+            <h3>注册新用户
+                <em>我有帐号，去<a href="login.html">登录</a></em>
+            </h3>
+            <div class="reg_form">
+                <form action="demo.php">
+                    <ul>
+                        <li>
+                            <label for="tel">手机号：</label>
+                            <input type="text" class="inp" id="tel">
+                            <span class="error">
+                                <i class="error_icon"></i>
+                                手机号格式不正确，请重输
+                            </span>
+                        </li>
+                        <li>
+                            <label for="">短信验证码：</label>
+                            <input type="text" class="inp">
+                        </li>
+                        <li>
+                            <label for="">登陆密码：</label>
+                            <input type="text" class="inp">
+                            <span class="success">
+                                <i class="success_icon"></i>
+                                正确凑合用错误图标吧，懒得切了
+                            </span>
+                        </li>
+                        <li class="safe">
+                            安全程度 
+                            <em class="ruo">弱</em>
+                            <em class="zhong">中</em>
+                            <em class="qiang">强</em>
+                        </li>
+                        <li>
+                            <label for="">确认密码</label>
+                            <input type="text" class="inp">
+                            <span class="success">
+                                <i class="success_icon"></i>
+                                正确凑合用错误图标吧，懒得切了
+                            </span>
+                        </li>
+                        <li class="agree">
+                            <input type="checkbox" name="" id="">
+                            同意协议并注册
+                            <a href="#">用户协议</a>
+                        </li>
+                        <li>
+                            <input type="submit" value="完成注册" class="over">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="links">关于我们  |  联系我们  |  联系客服  |  友情链接  |  English Site</p>
+            <p class="copyright">
+                地址：福建厦门华侨带学
+                电话：8888-010 邮箱：ok5215280@gmail.com<br>
+                闽ICP备00309434号闽公网安备
+            </p>
+        </div>
+    </div>
+</body>
+</html>
